@@ -1,0 +1,19 @@
+.zx-example {
+  border: 1px solid #e8e8e8;
+}
+
+.zx-example-box {
+  padding: 1rem;
+
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.zx-example-code {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e8e8e8;
+  padding: 1rem;
+}
+
+@import "hljs";
